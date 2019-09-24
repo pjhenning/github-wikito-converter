@@ -41,7 +41,8 @@ class PdfWriter extends BaseWriter {
         toc : false, outline: true,
         marginLeft: 10, marginRight: 10,
         footerLine: false, footerSpacing: 2.5,
-        footerFontSize: 10, pageOffset: 0
+        footerFontSize: 10, pageOffset: 0,
+        pageHeight: "8.24in", pageWidth: "6.18in"
       }
 
       if(footer){
